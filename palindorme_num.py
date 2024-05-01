@@ -1,6 +1,7 @@
 class Solution:
     def isPalindrome(self, x: int) -> bool:
-        #new_Approach(Current)
+        #(Current)Approach(New)
+        #T(C(N)==O(N)) and S(C(N)==O(1)) as it requires non memory space allocation iteratively
         #storage usage(16.60mb and  min. runtime==45ms)
         if x<0 or (x!=0 and x%10==0):return False#Checking non decimal value
         h=0 #initalzing reverse val
